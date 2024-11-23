@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{7D6F5B09-5318-4AF6-9F10-09D3DAB72F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PishgamSmsHelper.Sample", "sample\PishgamSmsHelper.Sample\PishgamSmsHelper.Sample.csproj", "{0101A840-639A-42D4-AF34-0C8A5E0468FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +26,17 @@ Global
 		{D96E2337-6235-463B-800E-414D0677A88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D96E2337-6235-463B-800E-414D0677A88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D96E2337-6235-463B-800E-414D0677A88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0101A840-639A-42D4-AF34-0C8A5E0468FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0101A840-639A-42D4-AF34-0C8A5E0468FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0101A840-639A-42D4-AF34-0C8A5E0468FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0101A840-639A-42D4-AF34-0C8A5E0468FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D96E2337-6235-463B-800E-414D0677A88A} = {2F70C218-8935-4C3C-9497-6A5A3AEB06BE}
+		{0101A840-639A-42D4-AF34-0C8A5E0468FC} = {7D6F5B09-5318-4AF6-9F10-09D3DAB72F9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C6B8AF-C7B2-4487-8AD3-C11EA4FFD3C9}

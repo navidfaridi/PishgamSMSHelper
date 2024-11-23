@@ -24,10 +24,10 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
       
-    - name: Pack the project
-      run: dotnet pack --configuration Release --output ./nupkgs
-      
-    - name: Publish to NuGet
-      run: dotnet nuget push ./nupkgs/*.nupkg --api-key ${{ secrets.NUGET }} --source https://api.nuget.org/v3/index.json
-      env:
-          NUGET_API_KEY: ${{ secrets.NUGET }}
+#    - name: Pack the project
+#      run: dotnet pack --configuration Release --output ./nupkgs
+#      
+#    - name: Publish to NuGet
+#      run: dotnet nuget push ./nupkgs/*.nupkg --api-key ${{ secrets.NUGET }} --source https://api.nuget.org/v3/index.json
+#      env:
+#          NUGET_API_KEY: ${{ secrets.NUGET }}
